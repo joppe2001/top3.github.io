@@ -1,0 +1,141 @@
+body {
+    background: url(images/background.png);
+    /* position: absolute; */
+}
+
+header {
+    margin: 0 60px;
+    text-align: center;
+    background: url(images/gaming-banner.png);
+    background-size: 100%;
+    background-position: center;
+    height: 150px;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    box-shadow: 1px 5px 5px pink;
+}
+
+header h1 {
+    padding-top: 55px;
+    color: #000000;
+    text-shadow: 1px 4px 4px white;
+    font-size: 50px;
+}
+
+.container-big {
+    size: 100vh;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.info-panel {
+    display: inline-block;
+    box-shadow: 1px 5px 5px pink;
+    width: 250px;
+}
+
+.cod {
+    border: 1px solid black;
+    padding: 70px 10px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background: url(images/bo2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lol {
+    border: 1px solid black;
+    padding: 70px 10px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background: url(images/league.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.halo {
+    border: 1px solid black;
+    padding: 70px 10px;
+    margin: 50px;
+    text-align: center;
+    border-radius: 15px;
+    background: url(images/halo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.text {
+    opacity: 0;
+}
+
+.cod .text a {
+    /* border: red 1px solid; */
+    padding: 90px 120px;
+}
+
+.lol .text a {
+    /* border: red 1px solid; */
+    padding: 90px 120px;
+}
+
+.halo .text a {
+    /* border: red 1px solid; */
+    padding: 90px 120px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+.name {
+    color: white;
+    float: left;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-left: 10px;
+}
+
+.fun-fact {
+    color: white;
+    float: right;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    padding-right: 10px;
+}
+
+@media only screen and (max-width: 360px) and (min-width: 144px) {
+    .info-panel {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width: 250px) {
+    .info-panel {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 460px) {
+    .title {
+        font-size: 35px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    footer {
+        display: none;
+    }
+}
